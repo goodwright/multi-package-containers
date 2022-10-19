@@ -1,0 +1,2 @@
+#targets	base_image	image_build
+pandas=1.5.0,openpyxl=3.0.10
