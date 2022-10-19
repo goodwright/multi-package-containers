@@ -1,2 +1,0 @@
-#targets	base_image	image_build
-stress-ng=0.12.04	bgruening/busybox-bash:0.1	0

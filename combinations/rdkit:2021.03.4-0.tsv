@@ -1,2 +1,0 @@
-#targets	base_image	image_build
-rdkit=2021.03.4	quay.io/bioconda/base-glibc-busybox-bash:latest	0
