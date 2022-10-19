@@ -1,5 +1,8 @@
-name: Build image
-on: [push]
+name: Build images
+on:
+  push:
+    branches:
+      - master
 env:
   MULLED_NAMESPACE: goodwright
 jobs:
