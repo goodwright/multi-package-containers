@@ -35,5 +35,3 @@ jobs:
          ssh-keyscan -t rsa depot.galaxyproject.org >> ~/.ssh/known_hosts
          ssh-agent -a $SSH_AUTH_SOCK > /dev/null
          mulled-build-files --check-published --namespace $MULLED_NAMESPACE --oauth-token ${{ secrets.QUAY_OAUTH_TOKEN }} push ./combinations
-         ls -l singularity_import
-         [ "$(ls -A singularity_import)" ] && echo 'uploading Singularity images' && scp singularity_import/*:* singularity@depot.galaxyproject.org:/srv/nginx/depot.galaxyproject.org/root/singularity/
